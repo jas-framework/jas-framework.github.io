@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="core.css">
+  <title>Auth</title>
+</head>
+<body>
+
+<!-- Confirm your identity -->
+
+<div class="row">
+    <div class="eight columns offset-by-two level-form">
+  <script>
+    var pass;
+    pass=prompt("What Is The Password?","");
+    if (pass=="A Friend") {
+        window.location.href="home.html";
+    }
+  </script>
+  <div class="msg msg--error" style="padding-left:20px">
+    <h2>
+      Unauthorized access
+    </h2>
+  </div>
+
+
+</body>
+</html>
+
