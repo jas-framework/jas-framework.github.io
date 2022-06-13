@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Auth</title>
+</head>
+<body>
+
+<!-- Confirm your identity -->
+<h2>401: Unauthorized</h2>
+
+<p id="Date"></p>
+
+<!-- Password Prompt -->
+<script>
+  var pass;
+  pass=prompt("Password = 3827918337382","");
+  if (pass=="3827918337382") {
+      window.location.href="home.html";
+  }
+</script>
+
+<!-- Get the date -->
+<script>
+  const x = new Date();
+  document.getElementById("Date").innerHTML = x;
+</script>
+
+</body>
+</html>
+
