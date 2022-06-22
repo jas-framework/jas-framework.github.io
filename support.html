@@ -22,15 +22,65 @@
 <div style="text-align: center; padding-top: 1%;">
   <img src="img/avater2.png" alt="Avatar" class="avatar">
   <h2>Want To Support Me?</h2>
-  <h2>----------</h2>
-  <h3>Monero:<h3>
-  <h4>43X6q5tpT3fNJFYazar8jdAFG6KXJJFY9eNKYYfvqXr8ZA3xKRaJ5wxbtCNF8YtCKENEX736RqXp19D5tkUyvMAFShrwcrA</h4>
-  <h3>USDC/Ethereum: </h3>
-  <h4>0xb59BFd1F358817f5c7f99a4714A23d4b1884C0Cc</h4>
-  <h3>Bitcoin:</h3>
-  <h4>3N1D2VKxzS2u3QXUGGc5hN2uAWRoSdCkrz</h4>
+
+  <!-- Tabs-->
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Wallets')">Crypto Address</button>
+    <button class="tablinks" onclick="openCity(event, 'Links')">Referal Links</button>
+  </div>
+
+  <div id="Wallets" class="tabcontent">
+    <h3>Monero:<h3>
+    <h4>43X6q5tpT3fNJFYazar8jdAFG6KXJJFY9eNKYYfvqXr8ZA3xKRaJ5wxbtCNF8YtCKENEX736RqXp19D5tkUyvMAFShrwcrA</h4>
+    <h3>Bitcoin:</h3>
+    <h4>3N1D2VKxzS2u3QXUGGc5hN2uAWRoSdCkrz</h4>
+  </div>
+
+  <div id="Links" class="tabcontent">
+    <h3>Freebitco.in &#9733;&#9733;&#9733;&#9733;</h3>
+    <h4></h4>
+    <p>Freebitco.in is a great place to store your crypto while gaining interest! <br> The site has multiple features including hourly free bitcoin and betting. <br> I rated the site four stars because you can get a bit carried away with betting if you lack self-control <br><br> https://freebitco.in/?r=49988412</p>
+    <h4>---</h4> 
+
+  <br>
+
+    <h3>LocalCoinSwap &#9733;&#9733;&#9733;&#9733;</h3>
+    <h4></h4>
+    <p>LocalCoinSwap is a P2P trading platform that allows you to buy crypto with over 300 payment methods KYC free! <br> I rated the site four stars because the fees can be steep depending on the payment method. <br><br> https://localcoinswap.com/?rc=34974F16</p> 
+    <h4>---</h4> 
+
+  <br>
+
+    <h3>LocalMonero &#9733;&#9733;&#9733;&#9733;</h3>
+    <h4></h4>
+    <p>LocalMonero is a P2P trading platform that allows you to buy Monero with multiple payment methods KYC free! <br> I rated the site four stars because they only support Monero and the fees can be steep depending on the payment method. <br><br> https://localmonero.co/?rc=hkh6</p> 
+    <h4>---</h4> 
+
+
+    <h5>An important note: My core criticisms of the platforms above lie with the users of the site rather than the site itself. It affects the overall rating because it can be annoying to deal with as a user.</h5>
+  </div>
+<!--END OF TABS-->
 </div>
 
+
+<!-- Tab Script -->
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+<!-- Add ChangeNOW -->
 </body>
 </html>
 
